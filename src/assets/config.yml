@@ -1,54 +1,35 @@
----
-# 你的导航站配置
 title: "铮宝的AI工具箱"
 subtitle: "一个超级个体的全部产品集合"
-
-header: true
-footer: false
 columns: 3
 connectivityCheck: false
 
-defaults:
-  layout: columns
-  colorTheme: auto
-
-theme: default
-message:
-  style: "is-dark"
-  title: "👋 欢迎！"
-  content: "这是我收集和制作的AI工具，希望能帮到你。"
-
-# ==========================================
-# 下面的 services: 就是你的产品列表
-# 每一行 "- name:" 代表一个产品卡片
-# ==========================================
 services:
   - name: "ChatGPT"
     icon: "fas fa-robot"
     url: "https://chat.openai.com"
     target: "_blank"
-    
+
   - name: "Claude"
     icon: "fas fa-comment-dots"
     url: "https://claude.ai"
     target: "_blank"
-    
+
   - name: "Midjourney"
     icon: "fas fa-palette"
     url: "https://www.midjourney.com"
     target: "_blank"
-    
+
   - name: "GitHub Copilot"
     icon: "fas fa-code"
     url: "https://github.com/features/copilot"
     target: "_blank"
-    
+
   - name: "我的AI周报生成器"
     icon: "fas fa-file-alt"
     url: "#"
     subtitle: "即将上线"
     target: "_self"
-    
+
   - name: "我的AI数字人带货"
     icon: "fas fa-user-tie"
     url: "#"
