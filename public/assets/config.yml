@@ -162,3 +162,5 @@ services:
         subtitle: "零基础到全栈开发 · 即将上线"
         url: "#"
         target: "_self"
+stylesheet:
+  - "assets/custom.css"
