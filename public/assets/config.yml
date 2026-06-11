@@ -17,32 +17,31 @@ theme: default
 # overrrides can also be done using CSS vars 
 colors:
   light:
-    highlight-primary: "#2563eb"
-    highlight-secondary: "#3b82f6"
-    highlight-hover: "#60a5fa"
-    background: "#f8fafc"
+    highlight-primary: "#7c3aed"
+    highlight-secondary: "#8b5cf6"
+    highlight-hover: "#a78bfa"
+    background: "#f5f3ff"
     card-background: "#ffffff"
     text: "#1e293b"
-    text-header: "#1e293b"
-    text-title: "#0f172a"
+    text-header: "#4c1d95"
+    text-title: "#3b0764"
     text-subtitle: "#64748b"
-    card-shadow: rgba(0, 0, 0, 0.08)
-    link: "#2563eb"
-    link-hover: "#1d4ed8"
+    card-shadow: rgba(0, 0, 0, 0.05)
+    link: "#7c3aed"
+    link-hover: "#6d28d9"
   dark:
-    highlight-primary: "#3b82f6"
-    highlight-secondary: "#60a5fa"
-    highlight-hover: "#93bbfd"
-    background: "#0f172a"
-    card-background: "#1e293b"
+    highlight-primary: "#8b5cf6"
+    highlight-secondary: "#a78bfa"
+    highlight-hover: "#c4b5fd"
+    background: "#0f0720"
+    card-background: "#1a1033"
     text: "#e2e8f0"
     text-header: "#ffffff"
-    text-title: "#f1f5f9"
-    text-subtitle: "#94a3b8"
-    card-shadow: rgba(0, 0, 0, 0.3)
-    link: "#60a5fa"
-    link-hover: "#93bbfd"
-
+    text-title: "#ede9fe"
+    text-subtitle: "#a5b4fc"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#a78bfa"
+    link-hover: "#c4b5fd"
 # Optional message
 message:
   style: "is-dark"
