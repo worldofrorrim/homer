@@ -1,0 +1,164 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/search for icons options
+
+title: "铮宝的AI工具箱"
+subtitle: "一个超级个体的全部产品集合"
+logo: "logo.png"
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+
+# Optional theme customization
+theme: default
+
+# Optional theme customization (color overrrides)
+# overrrides can also be done using CSS vars 
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Optional message
+message:
+  style: "is-dark"
+  title: "欢迎！"
+  icon: "fa fa-grin"
+  content: "这是我收集和制作的AI工具导航。<br />更多好产品正在路上，敬请期待！"
+
+# Optional navbar
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/"
+    target: "_blank"
+  - name: "关于我"
+    icon: "fas fa-user"
+    url: "#"
+
+# Services
+# First level array represent a group.
+services:
+  - name: "💬 大语言模型"
+    icon: "fas fa-robot"
+    items:
+      - name: "ChatGPT"
+        icon: "fas fa-comment"
+        subtitle: "OpenAI 出品的对话助手"
+        url: "https://chat.openai.com"
+        target: "_blank"
+      - name: "Claude"
+        icon: "fas fa-comment-dots"
+        subtitle: "Anthropic 出品的对话助手"
+        url: "https://claude.ai"
+        target: "_blank"
+      - name: "Gemini"
+        icon: "fas fa-gem"
+        subtitle: "Google 出品的多模态助手"
+        url: "https://gemini.google.com"
+        target: "_blank"
+      - name: "DeepSeek"
+        icon: "fas fa-brain"
+        subtitle: "国产高性价比大模型"
+        url: "https://chat.deepseek.com"
+        target: "_blank"
+
+  - name: "🎨 AI 绘画与视频"
+    icon: "fas fa-palette"
+    items:
+      - name: "Midjourney"
+        icon: "fas fa-image"
+        subtitle: "最流行的AI绘画工具"
+        url: "https://www.midjourney.com"
+        target: "_blank"
+      - name: "Stable Diffusion"
+        icon: "fas fa-images"
+        subtitle: "开源AI绘画模型"
+        url: "https://stability.ai"
+        target: "_blank"
+      - name: "Runway"
+        icon: "fas fa-video"
+        subtitle: "AI视频生成与编辑"
+        url: "https://runwayml.com"
+        target: "_blank"
+
+  - name: "🛠️ AI 编程工具"
+    icon: "fas fa-code"
+    items:
+      - name: "GitHub Copilot"
+        icon: "fab fa-github"
+        subtitle: "AI 编程助手"
+        url: "https://github.com/features/copilot"
+        target: "_blank"
+      - name: "Claude Code"
+        icon: "fas fa-terminal"
+        subtitle: "命令行 AI 编程 Agent"
+        url: "https://claude.ai/code"
+        target: "_blank"
+      - name: "Cursor"
+        icon: "fas fa-i-cursor"
+        subtitle: "AI 原生 IDE"
+        url: "https://cursor.sh"
+        target: "_blank"
+      - name: "Codex"
+        icon: "fas fa-bolt"
+        subtitle: "OpenAI 编程 Agent"
+        url: "https://github.com/openai/codex"
+        target: "_blank"
+
+  - name: "🎵 AI 音频工具"
+    icon: "fas fa-music"
+    items:
+      - name: "Suno"
+        icon: "fas fa-headphones"
+        subtitle: "AI 音乐生成"
+        url: "https://suno.ai"
+        target: "_blank"
+      - name: "ElevenLabs"
+        icon: "fas fa-microphone"
+        subtitle: "AI 语音合成与克隆"
+        url: "https://elevenlabs.io"
+        target: "_blank"
+
+  - name: "🚀 我的产品"
+    icon: "fas fa-rocket"
+    items:
+      - name: "AI 周报生成器"
+        icon: "fas fa-file-alt"
+        subtitle: "一键生成工作周报 · 即将上线"
+        url: "#"
+        target: "_self"
+      - name: "AI 数字人带货"
+        icon: "fas fa-user-tie"
+        subtitle: "24小时自动带货 · 即将上线"
+        url: "#"
+        target: "_self"
+      - name: "AI 编程保姆级教程"
+        icon: "fas fa-book"
+        subtitle: "零基础到全栈开发 · 即将上线"
+        url: "#"
+        target: "_self"
