@@ -1,0 +1,15 @@
+/* Dracula theme for Homer */
+:root {
+  --highlight-primary: #bd93f9;
+  --highlight-secondary: #50fa7b;
+  --highlight-hover: #ff79c6;
+  --background: #282a36;
+  --card-background: #44475a;
+  --text: #f8f8f2;
+  --text-header: #ffffff;
+  --text-title: #ff79c6;
+  --text-subtitle: #6272a4;
+  --card-shadow: rgba(0, 0, 0, 0.3);
+  --link: #8be9fd;
+  --link-hover: #50fa7b;
+}
